@@ -7,6 +7,7 @@ public class Serie {
     private Map<Integer, Long> valorList = new HashMap(); 
     
     public Serie() { 
+        
     }
 
     public long getFibonacci(int position) {   //Calcula y devuelve el valor del fibonacci 
