@@ -2,8 +2,8 @@
 // (powered by FernFlower decompiler)
 //
 
-public class Main {
-    public Main() {
+public class Main { //Se define la clase main
+    public Main() { //Constructor
     }
     public static void main(String[] args) {
         Serie serie = new Serie();
