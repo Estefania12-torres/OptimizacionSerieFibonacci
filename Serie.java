@@ -46,7 +46,7 @@ public class Serie {
 
         System.out.println(builder.toString());
     }
-    //toString
+    //toString imprime los valores de valorList
     public String toString() {
         return "Serie: " + this.valorList.toString();
     }
