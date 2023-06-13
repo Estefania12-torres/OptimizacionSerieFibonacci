@@ -5,7 +5,7 @@ import java.util.Map;
 public class Serie { 
     //Se almacena la secuencia Fibonacci
     private Map<Integer, Long> valorList = new HashMap(); 
-    
+    //Constructor
     public Serie() { 
         
     }
