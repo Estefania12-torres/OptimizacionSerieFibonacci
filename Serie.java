@@ -4,14 +4,14 @@ import java.util.Map;
 
 //Creacion clase serie
 public class Serie { 
+    
     //Se almacena la secuencia Fibonacci
     private Map<Integer, Long> valorList = new HashMap(); 
+    
     //Constructor
     public Serie() { 
-        
     }
-
-   
+    
     public long getFibonacci(int position) {   //Calcula y devuelve el valor del fibonacci 
         if (position != 0 && position != 1) {
             if (this.valorList.containsKey(position)) {
