@@ -5,10 +5,10 @@ import java.util.Map;
 public class Serie { //Creacion clase serie
     private Map<Integer, Long> valorList = new HashMap(); //Se almacena la secuencia Fibonacci
 
-    public Serie() {
+    public Serie() { //Se inicializa una nueva instancia
     }
 
-    public long getFibonacci(int position) {
+    public long getFibonacci(int position) {   //Calcula y devuelve el valor del fibonacci 
         if (position != 0 && position != 1) {
             if (this.valorList.containsKey(position)) {
                 return (Long)this.valorList.get(position);
@@ -23,7 +23,7 @@ public class Serie { //Creacion clase serie
     }
     
     //Get y Set
-    public Map<Integer, Long> getValorList() {
+    public Map<Integer, Long> getValorList() { //Permiete establecer ValorList
         return this.valorList;
     }
   
