@@ -12,7 +12,8 @@ public class Serie {
     public Serie() { 
     }
     
-    public long getFibonacci(int position) {   //Calcula y devuelve el valor del fibonacci 
+    //Calcula y devuelve el valor del fibonacci
+    public long getFibonacci(int position) {    
         if (position != 0 && position != 1) {
             if (this.valorList.containsKey(position)) {
                 return (Long)this.valorList.get(position);
