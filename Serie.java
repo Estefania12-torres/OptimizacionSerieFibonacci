@@ -35,7 +35,7 @@ public class Serie {
     //constructor
     private void printValorList() {
         StringBuilder builder = new StringBuilder();
-
+        //Imprime el valor de la cadena
         Map.Entry entry;
         for(Iterator var2 = this.valorList.entrySet().iterator(); var2.hasNext(); builder.append(entry.getValue())) {
             entry = (Map.Entry)var2.next();
