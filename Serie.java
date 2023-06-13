@@ -33,6 +33,7 @@ public class Serie {
     public void setValorList(Map<Integer, Long> valorList) {
         this.valorList = valorList;
     }
+    
     //constructor
     private void printValorList() {
         StringBuilder builder = new StringBuilder();
