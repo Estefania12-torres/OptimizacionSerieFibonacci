@@ -1,11 +1,12 @@
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-public class Serie { //Creacion clase serie
-    private Map<Integer, Long> valorList = new HashMap(); //Se almacena la secuencia Fibonacci
-
-    public Serie() { //Se inicializa una nueva instancia
+//Creacion clase serie
+public class Serie { 
+    //Se almacena la secuencia Fibonacci
+    private Map<Integer, Long> valorList = new HashMap(); 
+    
+    public Serie() { 
     }
 
     public long getFibonacci(int position) {   //Calcula y devuelve el valor del fibonacci 
