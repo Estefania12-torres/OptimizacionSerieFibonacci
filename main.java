@@ -8,6 +8,6 @@ public class Main { //Se define la clase main
     public static void main(String[] args) {
         Serie serie = new Serie(); //Se crea un nuevo objeto
         System.out.println(serie.getFibonacci(50)); //Pasa el número 50 como argumento
-        System.out.println(serie);
+        System.out.println(serie); //Imprimir los valores de serie
     }
 }
